@@ -6,7 +6,7 @@ import { visualizer } from "rollup-plugin-visualizer";
 
 export default defineConfig({
   build: {
-    outDir: "build",
+    // outDir: "build",
     chunkSizeWarningLimit: 2000,
     rollupOptions: {
       plugins: [
